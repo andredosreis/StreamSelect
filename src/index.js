@@ -1,0 +1,1 @@
+document.getElementById('app').innerHTML = '<h1> Bem-vindo ao projeto! </h1>'
