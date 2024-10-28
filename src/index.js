@@ -1,1 +1,6 @@
-document.getElementById('app').innerHTML = '<h1> Bem-vindo ao projeto! </h1>'
+import React from 'react'
+import ReactDom from 'react-dom'
+import app from './app'
+import './style.css'
+
+ReactDom.render(<App />, document.getElementById('root'))
